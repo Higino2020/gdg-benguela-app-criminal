@@ -6,10 +6,14 @@ import { firebaseConfig } from 'configuracao';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CidadaoComponent } from './cidadao/cidadao.component';
+import { RegistoComponent } from './registo/registo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CidadaoComponent,
+    RegistoComponent
   ],
   imports: [
     BrowserModule,
